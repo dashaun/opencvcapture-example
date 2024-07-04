@@ -25,10 +25,10 @@
 <!--          <groupId>org.bytedeco</groupId>-->
 <!--          <artifactId>artoolkitplus-platform</artifactId>-->
 <!--        </exclusion>-->
-<!--        <exclusion>-->
-<!--          <groupId>org.bytedeco</groupId>-->
-<!--          <artifactId>ffmpeg-platform</artifactId>-->
-<!--        </exclusion>-->
+        <exclusion>
+          <groupId>org.bytedeco</groupId>
+          <artifactId>ffmpeg-platform</artifactId>
+        </exclusion>
 <!--        <exclusion>-->
 <!--          <groupId>org.bytedeco</groupId>-->
 <!--          <artifactId>flycapture-platform</artifactId>-->
@@ -41,22 +41,22 @@
 <!--          <groupId>org.bytedeco</groupId>-->
 <!--          <artifactId>libdc1394-platform</artifactId>-->
 <!--        </exclusion>-->
-<!--        <exclusion>-->
-<!--          <groupId>org.bytedeco</groupId>-->
-<!--          <artifactId>libfreenect-platform</artifactId>-->
-<!--        </exclusion>-->
-<!--        <exclusion>-->
-<!--          <groupId>org.bytedeco</groupId>-->
-<!--          <artifactId>libfreenect2-platform</artifactId>-->
-<!--        </exclusion>-->
-<!--        <exclusion>-->
-<!--          <groupId>org.bytedeco</groupId>-->
-<!--          <artifactId>librealsense-platform</artifactId>-->
-<!--        </exclusion>-->
-<!--        <exclusion>-->
-<!--          <groupId>org.bytedeco</groupId>-->
-<!--          <artifactId>librealsense2-platform</artifactId>-->
-<!--        </exclusion>-->
+        <exclusion>
+          <groupId>org.bytedeco</groupId>
+          <artifactId>libfreenect-platform</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.bytedeco</groupId>
+          <artifactId>libfreenect2-platform</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.bytedeco</groupId>
+          <artifactId>librealsense-platform</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.bytedeco</groupId>
+          <artifactId>librealsense2-platform</artifactId>
+        </exclusion>
         <exclusion>
           <groupId>org.bytedeco</groupId>
           <artifactId>tesseract-platform</artifactId>
