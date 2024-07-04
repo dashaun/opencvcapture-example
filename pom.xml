@@ -23,7 +23,35 @@
       <exclusions>
         <exclusion>
           <groupId>org.bytedeco</groupId>
+          <artifactId>artoolkitplus-platform</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.bytedeco</groupId>
+          <artifactId>ffmpeg-platform</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.bytedeco</groupId>
+          <artifactId>flycapture-platform</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.bytedeco</groupId>
           <artifactId>leptonica-platform</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.bytedeco</groupId>
+          <artifactId>libdc1394-platform</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.bytedeco</groupId>
+          <artifactId>libfreenect-platform</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.bytedeco</groupId>
+          <artifactId>libfreenect2-platform</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.bytedeco</groupId>
+          <artifactId>librealsense-platform</artifactId>
         </exclusion>
         <exclusion>
           <groupId>org.bytedeco</groupId>
@@ -80,7 +108,7 @@
             <env>
               <BP_SPRING_AOT_ENABLED>true</BP_SPRING_AOT_ENABLED>
               <BP_JVM_CDS_ENABLED>true</BP_JVM_CDS_ENABLED>
-              <BP_MAVEN_BUILD_ARGUMENTS>-Djavacpp.platform=linux-arm64</BP_MAVEN_BUILD_ARGUMENTS>
+              <BP_MAVEN_BUILD_ARGUMENTS>-Djavacpp.platform.host</BP_MAVEN_BUILD_ARGUMENTS>
             </env>
             <name>dashaun/${project.name}:v${project.version}-${os.detected.arch}</name>
           </image>
